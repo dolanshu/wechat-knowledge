@@ -1,0 +1,7 @@
+# 在你的电脑(有网)上安装依赖: pip install -r requirements.txt
+# 必需
+opencv-python-headless   # 抽帧(内置 ffmpeg, 无需单独安装)
+# 可选: 仅当视频有旁白、需要语音转写时才需要
+faster-whisper           # 语音转写(首次运行会下载模型权重)
+# 仅用于生成演示测试视频, 实际提取不需要
+pillow

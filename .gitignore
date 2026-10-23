@@ -1,0 +1,21 @@
+# ===== Python =====
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# ===== 体积大的原始素材与抽取产物(不入库) =====
+# 原始下载视频
+video/
+videos/
+# 抽帧脚本输出(关键帧 jpg + 中间产物)
+output/
+output_videos/
+# 测试视频
+sample/test_video.mp4
+
+# ===== 临时 / 系统 =====
+*.tmp
+.DS_Store
+Thumbs.db
+桌面.ini
