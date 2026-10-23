@@ -11,7 +11,7 @@ description: 处理微信视频号内容 -> 知识点 Markdown -> 归档到 note
 - `archive_note.py` 归档到 `notes/YYYY-MM/` + 刷新 `notes/INDEX.md`
 
 ## 前置条件（确认已满足）
-- 视频已放进 `./video/`（或 `./videos/`）。
+- 新视频已放进 `./video/incoming/`（已处理的在 `./video/done/`，不要混放）。
 - 已抽帧 + OCR：`output_videos/<serial>_.../` 下含 `frames/` + `ocr.md`。
 - **当前环境无多模态读图能力，必须走 OCR 文字通道，不要尝试读图。**
 
@@ -59,6 +59,8 @@ Get-ChildItem output_videos -Recurse -Filter 笔记.md | ForEach-Object {
 
 ## 注意事项
 - `.gitignore` 已排除 `video/ output/ output_videos/ .venv/`，只入库代码/笔记/文档；**不要** `git add` 这些大目录。
+- 新视频只放 `./video/incoming/`；处理完归档后，把 incoming 里的源移到 `./video/done/`，保持 incoming 为空（它就是"是否有新视频"的判据）。
+- `ocr_frames.py` 对已有 `ocr.md` 的目录自动跳过，重复跑安全（只 OCR 新增）。
 - 重复下载的视频（如 020/021、023/024/025）只做一份。
 - `pending_notes.md` 是 59 篇分类勾选清单，可据此跟踪进度；未勾选的非技术/低价值内容可跳过。
 - PowerShell 变量插值写 `${n}_*`，不要写 `$n_*`。

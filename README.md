@@ -6,7 +6,7 @@
 
 ```
 视频号视频
-  └─ 下载器（一键 / 网页 / 机器人） -> mp4 文件  (./video/)
+  └─ 下载器（一键 / 网页 / 机器人） -> mp4 文件  (./video/incoming/)
         ├─ process_video.py 抽帧 + 去重  -> 关键帧 (画面文字/图表)   ← 主通道
         └─ process_video.py Whisper 转写 -> 语音文字 (有旁白才用)
               ↓
@@ -27,7 +27,7 @@
 
 ## 当前进度（2026-10-23）
 
-- **59 个视频已全部抽帧 + OCR**（`output_videos/<serial>_.../` 每目录含 `frames/` + `raw_extract.md` + `ocr.md`）。
+- **原 59 个视频已抽帧 + OCR**（`output_videos/<serial>_.../` 每目录含 `frames/` + `raw_extract.md` + `ocr.md`）；源视频已归入 `video/done/`，后续新视频放 `video/incoming/`。
 - **50 篇笔记已归档**到 `notes/2026-10/`（含首轮 4 篇 + 测试示例；本轮用户勾选生成 45 篇）。
 - **已清理**：未勾选的 `023/024/025/026/011/044` 已从 `pending_notes.md` 移除并删除源视频与抽帧产物；`021` 为已勾选但属 `020` 的重复变体，未单独做（`020` 已覆盖其知识点）。
 - 已入库：`notes/INDEX.md` 含全部索引；大体积素材按 `.gitignore` 排除，只上传代码/脚本/笔记/文档。
@@ -59,17 +59,21 @@
 > ⚠️ 版权提醒：视频号内容受原作者版权保护，下载请仅用于**个人收藏/学习**，不要二次剪辑发布或传播。
 > ⚠️ 隐私提醒：网页解析/小程序机器人方案内容经过第三方服务器，隐私敏感内容避免使用。
 
-把下载好的 mp4 放到一个文件夹，例如 `./video/`（或 `./videos/`）。
+把下载好的 mp4 放到 `./video/incoming/`。
+
+> 📁 **目录约定（怎么知道哪个是新视频）**：`./video/` 下分两个子目录——
+> - `video/incoming/`：**你只往这里丢新视频**。它非空 = 有未处理的新视频（唯一判据，不用记、不用遍历）。
+> - `video/done/`：已抽帧+OCR+归档的视频源，处理完自动移入。
 
 ---
 
 ## 第二步：抽帧 + OCR
 
 ```powershell
-# 1) 抽帧 + 去重 + 关键帧带时间戳, 跳过语音转写(主力场景)
-.venv\Scripts\python.exe process_video.py -i ./video --no-transcribe
+# 1) 抽帧 + 去重 + 关键帧带时间戳, 跳过语音转写(主力场景); 只扫 incoming
+.venv\Scripts\python.exe process_video.py -i ./video/incoming --no-transcribe
 
-# 2) 给 output_videos/ 下所有关键帧做中文 OCR, 产出每个视频目录的 ocr.md
+# 2) 给 output_videos/ 下所有关键帧做中文 OCR; 已有 ocr.md 的目录自动跳过(幂等), 只对新增的做
 .venv\Scripts\python.exe ocr_frames.py -i ./output_videos
 ```
 
@@ -179,13 +183,21 @@ git push
 
 ## 后续更新指南（新增一个视频的标准动作）
 
-1. **下载**视频 → 放进 `./video/`（重复下载的变体只留一份，如 `020/021`、`023/024/025`）。
-2. **抽帧 + OCR**：跑 §2 两条命令。
-3. **生成笔记**：用 §3 去重读取命令取素材，按格式写 `笔记.md` 到对应视频目录。
-4. **归档**：§4 批量归档（带 `--frames-dir`）。
-5. **入库**：§5 `git add -A && git commit && git push`。
+**判据**：`video/incoming/` 里有没有文件，就是"有没有新视频要处理"的唯一信号。平时它是空的。
+（`.gitignore` 已排除 `video/`，这些源文件不进 GitHub，仅本地留存。）
 
-> 重复视频、非技术/低价值内容可跳过；`pending_notes.md` 是 59 篇的分类勾选清单，可据此跟踪进度。
+1. **下载**视频 → 丢进 `./video/incoming/`（重复下载的变体只留一份）。
+2. **抽帧 + OCR**（只扫 incoming，OCR 自动跳过已处理的目录）：
+   ```powershell
+   .venv\Scripts\python.exe process_video.py -i ./video/incoming --no-transcribe
+   .venv\Scripts\python.exe ocr_frames.py -i ./output_videos   # 幂等: 只 OCR 新增目录
+   ```
+3. **生成笔记**：用 §3 去重读取命令取素材，按格式写 `笔记.md` 到对应 `output_videos/<dir>/`。
+4. **归档**：§4 批量归档（带 `--frames-dir`）。
+5. **收尾**：把 `video/incoming/` 里已处理的源视频移到 `video/done/`，保持 incoming 干净。
+6. **入库**：§5 `git add -A && git commit && git push`。
+
+> 重复视频、非技术/低价值内容可跳过；`pending_notes.md` 是早期 59 篇的分类勾选清单（历史参考），新视频无需再登记它。
 
 ---
 
@@ -203,7 +215,7 @@ git push
 
 ```powershell
 # 日常使用直接用 .venv 里的 python
-.venv\Scripts\python.exe process_video.py -i ./video --no-transcribe
+.venv\Scripts\python.exe process_video.py -i ./video/incoming --no-transcribe
 ```
 
 如需在新机器重建环境：
