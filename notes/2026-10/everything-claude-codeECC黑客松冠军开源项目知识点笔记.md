@@ -12,10 +12,10 @@ tags: []
 > 日期：2026-10-23
 
 ## 一句话总结
-`affaan-m/everything-claude-code`——**Anthropic 黑客马拉松冠军**开源项目，MIT 协议、支持 **7 种语言**，开源几天就冲到 ~10 万~20 万 Star。本质是给 Claude Code / Codex / Opencode / Cursor 等的**性能优化系统**：Skills + 直觉 + 记忆 + 安全 + 研究优先。
+[affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code)——**Anthropic 黑客马拉松冠军**开源项目，MIT 协议、支持 **7 种语言**，开源几天就冲到 ~10 万~20 万 Star。本质是给 Claude Code / Codex / Opencode / Cursor 等的**性能优化系统**：Skills + 直觉 + 记忆 + 安全 + 研究优先。
 
 ## 核心要点
-- **项目**：`affaan-m/everything-claude-code`（也称 ECC），`ecc.tools`，开发者工具 / claude / mcp / llm / anthropic / agents。
+- **项目**：[affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code)（也称 ECC），`ecc.tools`，开发者工具 / claude / mcp / llm / anthropic / agents。
 - **热度**：Anthropic 黑客马拉松冠军；开源数天即 10 万 Star，后续 103k / 202k Star、Fork 13.5k~31k 不等（不同周次口径）。
 - **形态**：`MIT`、`Shell/TypeScript/Python/Go/Java…` 支持 7 种语言；含 `.agents/skills`、`.claude-plugin`、`.claude`、`.codex`、`.cursor`、`.kiro`、`.opencode` 等目录（跨 harness 通吃）。
 - **定位**：利用性能优化系统——Skills、instincts、memory、security、research-first；面向 Claude Code / Codex / Opencode / Cursor 等领域的开发。

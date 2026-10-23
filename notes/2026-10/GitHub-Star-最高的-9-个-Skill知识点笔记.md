@@ -21,7 +21,7 @@ tags: []
 |---|---|---|
 | `superpowers` | 24 万 | 资深工程师干活习惯：把规划、执行、复盘灌进 AI |
 | `ECC` | 20 万 | 性能优化全家桶，专门盯代码性能、排查慢/卡/耗资源 |
-| `mattpocock/skills` | 16 万 | 资深工程师私货开源，偏实战经验包，补工程化思路（见笔记 `014`） |
+| [mattpocock/skills](https://github.com/mattpocock/skills) | 16 万 | 资深工程师私货开源，偏实战经验包，补工程化思路（见笔记 `014`） |
 | `anthropics 官方` | 16 万 | PDF/Word/Excel/PPT 让 Agent 读写办公文档更顺手 |
 | `karpathy skills` | 13 万 | 大神踩坑总结，把调试、写作、思考方式做成 Skill |
 | `gstack` | 11 万 | YC 掌门原装配置，适合搭个人 AI 工作流 |

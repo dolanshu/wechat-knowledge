@@ -14,7 +14,7 @@ tags: []
 > 日期：2026-10-23
 
 ## 一句话总结
-`affaan-m/ECC` 一个人把"整套工程团队的活"干完还免费开源：GitHub **超 25 万 Star、3931 commits、64 个 Agent / 261 个技能（FREE）**，装进 Claude Code / Cursor / Codex 只要 30 秒；用自然语言动词驱动——说 `Plan` 出规划、`Build` 写代码、`Secure` 查安全、`Test` 跑到覆盖率达标。
+[affaan-m/ECC](https://github.com/affaan-m/ECC) 一个人把"整套工程团队的活"干完还免费开源：GitHub **超 25 万 Star、3931 commits、64 个 Agent / 261 个技能（FREE）**，装进 Claude Code / Cursor / Codex 只要 30 秒；用自然语言动词驱动——说 `Plan` 出规划、`Build` 写代码、`Secure` 查安全、`Test` 跑到覆盖率达标。
 
 ## 核心要点
 - **规模**：64 AGENTS / 261 SKILLS，全部免费；一个开发者独立维护（"一个人把整套工程团队的活都干完了"）。

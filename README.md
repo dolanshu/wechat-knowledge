@@ -129,6 +129,8 @@ output_videos/
 | 00:00~ | ... |
 ```
 
+> **GitHub 仓库引用规则**：笔记中出现的所有 GitHub 仓库（`owner/repo` 形式，如 `` `microsoft/markitdown` ``）一律渲染为可点击直连 `[owner/repo](https://github.com/owner/repo)`，方便跳转。已有 50 篇已用脚本批量补过此链接。
+
 ### 去重读取 OCR（避免长视频超长截断）
 不要把整篇 `ocr.md` 原文一次性全部 dump（长视频会超出上下文被截断）。用下面命令只输出**去重后的唯一文字行**：
 ```powershell

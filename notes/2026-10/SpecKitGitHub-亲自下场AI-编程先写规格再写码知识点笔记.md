@@ -19,7 +19,7 @@ GitHub 官方开源 **SpecKit**（`spec-kit`，MIT）：核心理念 **"Define w
 ## 核心要点
 - **定位**：`SpecKit 规格套件`——"使用任何人工智能编码代理，都要在构建之前先明确要构建的内容"。
 - **形态**：ready-to-use spec（或 bring your own），`endlessly extensible / community-driven / built for your whole organization`。
-- **仓库结构**：`.devcontainer` / `specify/memory` / `bundles` / `docs` / `examples/bundles` / `extensions` / `integrations`。
+- **仓库结构**：`.devcontainer` / [specify/memory](https://github.com/specify/memory) / `bundles` / `docs` / [examples/bundles](https://github.com/examples/bundles) / `extensions` / `integrations`。
 - **同类范式**：与 `037`（OpenAI Symphony）、`030` 同属"spec-driven / 先规格后代码"工作流——工程师先想清楚写下来，AI 照做。
 
 ## 展开说明

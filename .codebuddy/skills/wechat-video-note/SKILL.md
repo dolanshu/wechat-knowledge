@@ -36,6 +36,7 @@ description: 处理微信视频号内容 -> 知识点 Markdown -> 归档到 note
    - `## 核心要点`（分点，含具体数据/项目名/Star 数/命令）
    - `## 展开说明`（含与其他笔记的交叉引用）
    - `## 时间戳索引`（表格：时间 | 画面内容，时间取自 `ocr.md`/帧文件名）
+   - GitHub 仓库引用（`owner/repo`）渲染为直连 `[owner/repo](https://github.com/owner/repo)`
 3. 归档（带 `--frames-dir` 以正确推断关键帧时间戳）：
    ```powershell
    $dir = "<output_videos 下该视频目录的绝对路径>"

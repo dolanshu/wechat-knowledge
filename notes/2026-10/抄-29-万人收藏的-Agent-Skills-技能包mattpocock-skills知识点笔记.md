@@ -14,7 +14,7 @@ tags: []
 > 日期：2026-10-23
 
 ## 一句话总结
-29 万人收藏的"大牛技能包"，其实是 **Matt Pocock 一个人的 `.agents` 目录**开源出来（`mattpocock/skills`，GitHub ~29 万星 / 2.4 万 fork，MIT），给"真正工程师"用的技能集合，分**效率类**和**工程类**。
+29 万人收藏的"大牛技能包"，其实是 **Matt Pocock 一个人的 `.agents` 目录**开源出来（[mattpocock/skills](https://github.com/mattpocock/skills)，GitHub ~29 万星 / 2.4 万 fork，MIT），给"真正工程师"用的技能集合，分**效率类**和**工程类**。
 
 ## 核心要点
 **效率类（由你手动调用）**

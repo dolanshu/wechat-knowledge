@@ -21,12 +21,12 @@ Codex 能写代码但缺审美，解决办法是让它**从优秀 UI 组件库�
    - `beul`：精致的动画组件库。
    - `Rare UI`：小众、独特的视觉组件，用来制造"视觉亮点"。
    - `Transitions`：动效调优，给已有界面补上自然、专业的动画。
-   - `shadcn/ui`：视觉统一、组件完整的 UI 组件库底座。
+   - [shadcn/ui](https://github.com/shadcn/ui)：视觉统一、组件完整的 UI 组件库底座。
 
 ## 展开说明
 - Codex 写界面"很容易但没啥审美"，瓶颈在样式与视觉一致性，而非逻辑。
 - 用法：把上述网站链接贴给 Codex，让它去站点里自行选用组件、整合进项目，统一样式。
-- 优先 `shadcn/ui` 打底（组件全、风格统一），需要差异化亮点时再叠加 `Rare UI` / `beul` / `Transitions`。
+- 优先 [shadcn/ui](https://github.com/shadcn/ui) 打底（组件全、风格统一），需要差异化亮点时再叠加 `Rare UI` / `beul` / `Transitions`。
 
 ## 时间戳索引
 | 时间 | 画面内容 |
