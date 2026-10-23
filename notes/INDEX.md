@@ -6,53 +6,53 @@
 
 | 日期 | 标题 | 一句话总结 | 来源视频 |
 |---|---|---|---|
-| 2026-10-23 | [15 个开源项目拼出"真实 Agent 技术栈"（知识点笔记）](2026-10/15-个开源项目拼出-真实-Agent-技术栈-知识点笔记.md) |  | video |
-| 2026-10-23 | [2026 最硬核 Skills 实测推荐（WorkBuddy 榜单）知识点笔记](2026-10/2026-最硬核-Skills-实测推荐WorkBuddy-榜单知识点笔记.md) |  | video |
-| 2026-10-23 | [2026 最硬核的 4 个 Skill（WorkBuddy 榜单）知识点笔记](2026-10/2026-最硬核的-4-个-SkillWorkBuddy-榜单知识点笔记.md) |  | video |
-| 2026-10-23 | [5 款监控工具（Linux 运维必会）知识点笔记](2026-10/5-款监控工具Linux-运维必会知识点笔记.md) |  | video |
-| 2026-10-23 | [AI + Playwright 做 UI 自动化：三代理架构（知识点笔记）](2026-10/AI--Playwright-做-UI-自动化三代理架构知识点笔记.md) |  | video |
-| 2026-10-23 | [ai-job-search：基于 Claude Code 的 AI 求职工作流（知识点笔记）](2026-10/ai-job-search基于-Claude-Code-的-AI-求职工作流知识点笔记.md) |  | video |
-| 2026-10-23 | [AI 写代码如何做 Code Review（面试视角）知识点笔记](2026-10/AI-写代码如何做-Code-Review面试视角知识点笔记.md) |  | video |
-| 2026-10-23 | [AI 写代码审核验收八步（知识点笔记）](2026-10/AI-写代码审核验收八步知识点笔记.md) |  | video |
-| 2026-10-23 | [AI 生成测试用例怎么验收？测试面试灵魂拷问（知识点笔记）](2026-10/AI-生成测试用例怎么验收测试面试灵魂拷问知识点笔记.md) |  | video |
-| 2026-10-23 | [AITS：一个平台搞定测试全流程 AI 提效（12 模块）知识点笔记](2026-10/AITS一个平台搞定测试全流程-AI-提效12-模块知识点笔记.md) |  | video |
-| 2026-10-23 | [Claude Code 推荐的九大技能（知识点笔记）](2026-10/Claude-Code-推荐的九大技能知识点笔记.md) |  | video |
-| 2026-10-23 | [Code-Simplifier：Anthropic 官方开源，写完代码后自动简化结构（知识点笔记）](2026-10/Code-SimplifierAnthropic-官方开源写完代码后自动简化结构知识点笔记.md) |  | video |
-| 2026-10-23 | [CodeGraph：把代码库解析成知识图谱，AI 查 Bug 不再像无头苍蝇（知识点笔记）](2026-10/CodeGraph把代码库解析成知识图谱AI-查-Bug-不再像无头苍蝇知识点笔记.md) |  | video |
-| 2026-10-23 | [ECC 开源项目火了：64 个 Agent / 261 个技能，30 秒装好（知识点笔记）](2026-10/ECC-开源项目火了64-个-Agent-261-个技能30-秒装好知识点笔记.md) |  | video |
-| 2026-10-23 | [ECC：黑客松冠军开源的"AI 编码操作系统"（知识点笔记）](2026-10/ECC黑客松冠军开源的-AI-编码操作系统-知识点笔记.md) |  | video |
-| 2026-10-23 | [everything-claude-code（ECC）：黑客松冠军开源项目（知识点笔记）](2026-10/everything-claude-codeECC黑客松冠军开源项目知识点笔记.md) |  | video |
-| 2026-10-23 | [GitHub Star 最高的 9 个 Skill（知识点笔记）](2026-10/GitHub-Star-最高的-9-个-Skill知识点笔记.md) |  | video |
-| 2026-10-23 | [GitHub 增星 Top10：AI 记忆火了（知识点笔记）](2026-10/GitHub-增星-Top10AI-记忆火了知识点笔记.md) |  | video |
-| 2026-10-23 | [GitHub 本周热榜 Top10（2026-09-20）知识点笔记](2026-10/GitHub-本周热榜-Top102026-09-20知识点笔记.md) |  | video |
-| 2026-10-23 | [GitHub 本周热榜 Top10（2026-09-27）知识点笔记](2026-10/GitHub-本周热榜-Top102026-09-27知识点笔记.md) |  | video |
-| 2026-10-23 | [GitHub 热榜：7 个项目，5 个在拆软件、2 个在省 token（知识点笔记）](2026-10/GitHub-热榜7-个项目5-个在拆软件2-个在省-token知识点笔记.md) |  | video |
-| 2026-10-23 | [Harness²（RSI）：权重冻结，让 AI 自己改自己（知识点笔记）](2026-10/Harness²RSI权重冻结让-AI-自己改自己知识点笔记.md) |  | video |
-| 2026-10-23 | [Karpathy 新思想落地：Skill answer-me-with-html（知识点笔记）](2026-10/Karpathy-新思想落地Skill-answer-me-with-html知识点笔记.md) |  | video |
-| 2026-10-23 | [LoopX：给长时运行 AI 智能体团队的本地控制台知识点笔记](2026-10/LoopX给长时运行-AI-智能体团队的本地控制台知识点笔记.md) |  | video |
-| 2026-10-23 | [MattPocock 放出大招：AI Skills for Real Engineers（知识点笔记）](2026-10/MattPocock-放出大招AI-Skills-for-Real-Engineers知识点笔记.md) |  | video |
-| 2026-10-23 | [OpenAI Symphony：先写规格再写码，工程师管任务不写代码（知识点笔记）](2026-10/OpenAI-Symphony先写规格再写码工程师管任务不写代码知识点笔记.md) |  | video |
-| 2026-10-23 | [OpenSRE：开源 SRE Agent 框架（知识点笔记）](2026-10/OpenSRE开源-SRE-Agent-框架知识点笔记.md) |  | video |
-| 2026-10-23 | [PentAGI：完全自主的 AI 红队工具（知识点笔记）](2026-10/PentAGI完全自主的-AI-红队工具知识点笔记.md) |  | video |
-| 2026-10-23 | [Qodo PR-Agent：自动做"最后 1% 代码审查"（知识点笔记）](2026-10/Qodo-PR-Agent自动做-最后-1-代码审查-知识点笔记.md) |  | video |
-| 2026-10-23 | [RAG 文档切割策略（面试向）知识点笔记](2026-10/RAG-文档切割策略面试向知识点笔记.md) |  | video |
-| 2026-10-23 | [SpecKit：GitHub 亲自下场，AI 编程先写规格再写码（知识点笔记）](2026-10/SpecKitGitHub-亲自下场AI-编程先写规格再写码知识点笔记.md) |  | video |
-| 2026-10-23 | [tester-army/e2e 爆火：单日狂揽 1430 星（知识点笔记）](2026-10/tester-army-e2e-爆火单日狂揽-1430-星知识点笔记.md) |  | video |
-| 2026-10-23 | [tester-army/e2e：用大白话写端到端测试（知识点笔记）](2026-10/tester-army-e2e用大白话写端到端测试知识点笔记.md) |  | video |
-| 2026-10-23 | [TheAgency / AgencyAgents：一个工具=一个专家团队（知识点笔记）](2026-10/TheAgency-AgencyAgents一个工具一个专家团队知识点笔记.md) |  | video |
-| 2026-10-23 | [UI 自动化测试怎么做：4 层方法论（知识点笔记）](2026-10/UI-自动化测试怎么做4-层方法论知识点笔记.md) |  | video |
-| 2026-10-23 | [一口气了解十几个常用数据库（知识点笔记）](2026-10/一口气了解十几个常用数据库知识点笔记.md) |  | video |
-| 2026-10-23 | [一周通过 Agent 开发面试（7 天备战法）知识点笔记](2026-10/一周通过-Agent-开发面试7-天备战法知识点笔记.md) |  | video |
-| 2026-10-23 | [一段"深度思考"提示词：让 AI 先澄清再回答（知识点笔记）](2026-10/一段-深度思考-提示词让-AI-先澄清再回答知识点笔记.md) |  | video |
-| 2026-10-23 | [免费学 AI Agent 的网站：《深入理解 AI Agent》开源书（知识点笔记）](2026-10/免费学-AI-Agent-的网站深入理解-AI-Agent开源书知识点笔记.md) |  | video |
-| 2026-10-23 | [开源远程控制工具（GitHub 8.4k Star）知识点笔记](2026-10/开源远程控制工具GitHub-8.4k-Star知识点笔记.md) |  | video |
-| 2026-10-23 | [抄 29 万人收藏的 Agent Skills 技能包（mattpocock/skills）知识点笔记](2026-10/抄-29-万人收藏的-Agent-Skills-技能包mattpocock-skills知识点笔记.md) |  | video |
-| 2026-10-23 | [提高 Codex 审美的 5 个网站（知识点笔记）](2026-10/提高-Codex-审美的-5-个网站知识点笔记.md) |  | video |
-| 2026-10-23 | [本期榜单：几乎被 AI 编程代理周边承包（知识点笔记）](2026-10/本期榜单几乎被-AI-编程代理周边承包知识点笔记.md) |  | video |
-| 2026-10-23 | [用 DESIGN.md 让 AI 生成与设计一致的高质量 UI（知识点笔记）](2026-10/用-DESIGN.md-让-AI-生成与设计一致的高质量-UI知识点笔记.md) |  | video |
-| 2026-10-23 | [登上 GitHub 热榜第一的开源求职框架（基于 Claude Code）知识点笔记](2026-10/登上-GitHub-热榜第一的开源求职框架基于-Claude-Code知识点笔记.md) |  | video |
-| 2026-10-23 | [真正工程师的 AI Skills 技能包（知识点笔记）](2026-10/真正工程师的-AI-Skills-技能包知识点笔记.md) |  | video |
-| 2026-10-23 | [程序员实用榜 3：7 个 AI 工具（知识点笔记）](2026-10/程序员实用榜-37-个-AI-工具知识点笔记.md) |  | video |
-| 2026-10-23 | [简历没让人看到你能干活？测试开发面试实战（知识点笔记）](2026-10/简历没让人看到你能干活测试开发面试实战知识点笔记.md) |  | video |
-| 2026-10-23 | [让 Codex 读陌生资料的 4 步读法 + 7 项输出（知识点笔记）](2026-10/让-Codex-读陌生资料的-4-步读法--7-项输出知识点笔记.md) |  | video |
+| 2026-10-23 | [15 个开源项目拼出"真实 Agent 技术栈"（知识点笔记）](2026-10/15-个开源项目拼出-真实-Agent-技术栈-知识点笔记.md) | 视频汇总了 15 个开源项目（合计约 121 万星），按 SPEC→DATA→MEMORY→CONTEXT→EXECUTE→HATCH→SHIP 串成一条"真实可用的 Agent 技术栈"，无需几十人团队即可全自动跑通 AI 工作流。 | video |
+| 2026-10-23 | [2026 最硬核 Skills 实测推荐（WorkBuddy 榜单）知识点笔记](2026-10/2026-最硬核-Skills-实测推荐WorkBuddy-榜单知识点笔记.md) | 同一作者（WorkBuddy）的另一版榜单：实测下来最值得装的 4 个 Skill——都开源免费、数据本地、持续维护。与 009 同源，结论一致。 | video |
+| 2026-10-23 | [2026 最硬核的 4 个 Skill（WorkBuddy 榜单）知识点笔记](2026-10/2026-最硬核的-4-个-SkillWorkBuddy-榜单知识点笔记.md) | WorkBuddy 评出 2026 年最硬核的 4 个 Skill：Composio（连接器）、Tavily（AI 搜索）、PlayWright-MCP（网页执行）、Self-Improving（自进化）——分别补上 Agent 的"手、脚、底座、自我迭代"。 | video |
+| 2026-10-23 | [5 款监控工具（Linux 运维必会）知识点笔记](2026-10/5-款监控工具Linux-运维必会知识点笔记.md) | Linux 运维必会的 5 款监控工具：Nagios（主机/网络/设备状态监视）、Grafana（可视化出图）、Prometheus（监控+告警）、Cacti（流量/主机监控）、Zabbix（一键部署监控平台）——"这 5 款都不会，还算什么 Linux 运维"。 | video |
+| 2026-10-23 | [AI + Playwright 做 UI 自动化：三代理架构（知识点笔记）](2026-10/AI--Playwright-做-UI-自动化三代理架构知识点笔记.md) | 一个 AI 测试项目实战演示：用 AI + Playwright 做 UI 自动化，主流技术方案是三代理架构（Planner / Generator / Healer）——规划器拆解、生成器写脚本、修复器自愈，配套完整 E2E 框架（集成 Page Object Model）。 | video |
+| 2026-10-23 | [ai-job-search：基于 Claude Code 的 AI 求职工作流（知识点笔记）](2026-10/ai-job-search基于-Claude-Code-的-AI-求职工作流知识点笔记.md) | ai-job-search（GitHub ~21.3k stars）是一个基于 Claude Code 构建的 AI 驱动职位申请框架：填好资料 → 评估职位 → 定制简历/求职信 → 多平台搜岗去重并按匹配度排序 → 按 JD 逐岗定制、第二个 Agent 复核、面试模拟陪练。不无人值守自动投递，脏活累活全自动。 | video |
+| 2026-10-23 | [AI 写代码如何做 Code Review（面试视角）知识点笔记](2026-10/AI-写代码如何做-Code-Review面试视角知识点笔记.md) | 当团队都在用 AI 写代码时，code review 的顺序是：先看业务逻辑 → 再看边界异常 → 再查 AI 特有问题（幻觉 API/安全/过度设计）→ 测试先行 → 小步提交 → AI 初审人拍板。核心态度：AI 是提效工具，不是免责工具。 | video |
+| 2026-10-23 | [AI 写代码审核验收八步（知识点笔记）](2026-10/AI-写代码审核验收八步知识点笔记.md) | AI 写代码"能跑"不等于能上线。审核验收按八步走：需求对齐 → 边界条件 → 安全 → 性能资源 → 可维护性 → 测试 → 监控回滚 → 责任。本质是"我能不能为这段代码负责"。 | video |
+| 2026-10-23 | [AI 生成测试用例怎么验收？测试面试灵魂拷问（知识点笔记）](2026-10/AI-生成测试用例怎么验收测试面试灵魂拷问知识点笔记.md) | 一道大厂高频面试题：公司全面用 AI 生成测试用例（看起来覆盖很全），你怎么判断它可靠、能不能直接执行上线？ 考点不是"会不会写用例"，而是 AI 时代测试用例质量审核与风险识别——普通测试会手写用例，高级测试懂 AI 测试 + 懂质量把控。 | video |
+| 2026-10-23 | [AITS：一个平台搞定测试全流程 AI 提效（12 模块）知识点笔记](2026-10/AITS一个平台搞定测试全流程-AI-提效12-模块知识点笔记.md) | AITS 是一个覆盖测试全流程的 AI 提效平台（附源码+手册）：核心不是"换掉某个工具"，而是每个环节注入智能——从统一入口/数据隔离，到智能驾驶舱（执行/通过率/缺陷一屏看全），再到 AI 实验室（LLM 管理 + RAG 知识库 + MCP 协议），共 12 个模块 / 6 个阶段。 | video |
+| 2026-10-23 | [Claude Code 推荐的九大技能（知识点笔记）](2026-10/Claude-Code-推荐的九大技能知识点笔记.md) | Claude Code 官方语境下"最该装"的九大技能，覆盖开发全流程：从规划、TDD、代码审查，到 UI 设计、网页测试、长任务续跑、自定义技能与文档产出。 | video |
+| 2026-10-23 | [Code-Simplifier：Anthropic 官方开源，写完代码后自动简化结构（知识点笔记）](2026-10/Code-SimplifierAnthropic-官方开源写完代码后自动简化结构知识点笔记.md) | Anthropic 官方开源的 Code-Simplifier（"屎山代码的自动清理器"）：专门在你写完代码之后自动简化结构——减少冗余、提高可读性（reduce redundancy, improve readability）。 | video |
+| 2026-10-23 | [CodeGraph：把代码库解析成知识图谱，AI 查 Bug 不再像无头苍蝇（知识点笔记）](2026-10/CodeGraph把代码库解析成知识图谱AI-查-Bug-不再像无头苍蝇知识点笔记.md) | 让 AI 在陌生代码库修 Bug，它常"翻 10 分钟、开几十个文件、Token 烧 12 万+"还连不上调用链——不是 AI 不聪明，是它不知道门朝哪开。CodeGraph 提前把整个代码库解析成知识图谱（函数/类/调用链/依赖存本地库），AI 直接查图，工具调用减 70%、Token 省 59%、速度提 50%，支持 20+ 语言、本地运行。 | video |
+| 2026-10-23 | [ECC 开源项目火了：64 个 Agent / 261 个技能，30 秒装好（知识点笔记）](2026-10/ECC-开源项目火了64-个-Agent-261-个技能30-秒装好知识点笔记.md) | affaan-m/ECC 一个人把"整套工程团队的活"干完还免费开源：GitHub 超 25 万 Star、3931 commits、64 个 Agent / 261 个技能（FREE），装进 Claude Code / Cursor / Codex 只要 30 秒；用自然语言动词驱动——说 Plan 出规划、Build 写代码、Secure 查安全、Test 跑到覆盖率达标。 | video |
+| 2026-10-23 | [ECC：黑客松冠军开源的"AI 编码操作系统"（知识点笔记）](2026-10/ECC黑客松冠军开源的-AI-编码操作系统-知识点笔记.md) | 纽约黑客马拉松冠军（@AnthropicAI × forumventures）开源的 ECC（开发者 affaan-m 耗时约 10 个月），把"AI 编码操作系统"做成一套 harness 性能优化系统：内置上百技能 + 数十智能体，通吃 7 大 AI 编码工具（Claude Code / Codex / Cursor / OpenCode / Gemini / Kiro …），MIT 协议。 | video |
+| 2026-10-23 | [everything-claude-code（ECC）：黑客松冠军开源项目（知识点笔记）](2026-10/everything-claude-codeECC黑客松冠军开源项目知识点笔记.md) | affaan-m/everything-claude-code——Anthropic 黑客马拉松冠军开源项目，MIT 协议、支持 7 种语言，开源几天就冲到 ~10 万~20 万 Star。本质是给 Claude Code / Codex / Opencode / Cursor 等的性能优化系统：Skills + 直觉 + 记忆 + 安全 + 研究优先。 | video |
+| 2026-10-23 | [GitHub Star 最高的 9 个 Skill（知识点笔记）](2026-10/GitHub-Star-最高的-9-个-Skill知识点笔记.md) | "装上这些 Skill = 雇了个高手站你背后"。GitHub 高 Star 的 9 个 Skill，覆盖工程流程、性能优化、文档读写、思考方式、省 token、代码图谱等。 | video |
+| 2026-10-23 | [GitHub 增星 Top10：AI 记忆火了（知识点笔记）](2026-10/GitHub-增星-Top10AI-记忆火了知识点笔记.md) | 本周 GitHub 增星 Top10（近 7 天）被 AI 记忆 + 多智能体 + 代码安全 包揽：榜首 hindsight（给智能体装会学习的长期记忆）登顶，"AI 记忆"成最热方向；后面紧跟 orca（多智能体管理）、security-audit-skill（安全审计）、ECC（开发套件）、paperclip（智能体管理）。 | video |
+| 2026-10-23 | [GitHub 本周热榜 Top10（2026-09-20）知识点笔记](2026-10/GitHub-本周热榜-Top102026-09-20知识点笔记.md) | 2026-09-20 这周 GitHub 热榜被 Agent 生态 + 代码评审 + 开源工具 包揽：从 Agent 底座（ECC）、技能库（agent-skills）、并行开发环境（Orca），到治 Agent 毛病的技能（i-have-adhd），再到阿里开源的代码评审（open-code-review）断层第一。 | video |
+| 2026-10-23 | [GitHub 本周热榜 Top10（2026-09-27）知识点笔记](2026-10/GitHub-本周热榜-Top102026-09-27知识点笔记.md) | 2026-09-27 这周 GitHub 热榜关键词是 记忆 / 办公 / 安全：Agent 学会"记事"（hindsight 登顶）、真正"进办公室"干活（univer/paperclip）、并"安全自查"（Cloudflare 安全审计技能）。 | video |
+| 2026-10-23 | [GitHub 热榜：7 个项目，5 个在拆软件、2 个在省 token（知识点笔记）](2026-10/GitHub-热榜7-个项目5-个在拆软件2-个在省-token知识点笔记.md) | 一期 GitHub Trending 盘点，主题"软件工程的护城河正在消失"：7 个项目里 5 个在"拆"软件、2 个在"省"token——能拆（逆向/重写）、能写（造）、能省（上下文压缩）。 | video |
+| 2026-10-23 | [Harness²（RSI）：权重冻结，让 AI 自己改自己（知识点笔记）](2026-10/Harness²RSI权重冻结让-AI-自己改自己知识点笔记.md) | Google Research 开源 Harness²（harness2）：递归式智能体调校（Recursive Self-Improvement, RSI）——模型权重全程冻结、一个字节不动，只改挂在模型外面的"外壳"（提示词/护栏/记忆/工具/技能…），让 AI 自己迭代优化自己，效果还往上走。 | video |
+| 2026-10-23 | [Karpathy 新思想落地：Skill answer-me-with-html（知识点笔记）](2026-10/Karpathy-新思想落地Skill-answer-me-with-html知识点笔记.md) | 把 Karpathy"让 AI 用最少文字讲清核心信息"的想法落地成开源 Skill answer-me-with-html：让 AI Agent 用一页 HTML 回答复杂问题，对比直接要 HTML，Token 省 7.4 倍、速度快 3.6 倍。 | video |
+| 2026-10-23 | [LoopX：给长时运行 AI 智能体团队的本地控制台知识点笔记](2026-10/LoopX给长时运行-AI-智能体团队的本地控制台知识点笔记.md) | LoopX 是给长时运行 AI 智能体团队的"本地控制台"（local control plane）：目标、回合、待办、证据、用量一目了然，让 AI 干几百小时的长活儿也不跑偏、不失联。 | video |
+| 2026-10-23 | [MattPocock 放出大招：AI Skills for Real Engineers（知识点笔记）](2026-10/MattPocock-放出大招AI-Skills-for-Real-Engineers知识点笔记.md) | 知名程序员 Matt Pocock 开源 skills（GitHub 狂揽 279K 星、23.4k fork，MIT）：AI Skills for Real Engineers. Straight from my .agents directory.——直接把他自己的 .agents 目录公开，"治好 AI 瞎写代码的臭毛病"。 | video |
+| 2026-10-23 | [OpenAI Symphony：先写规格再写码，工程师管任务不写代码（知识点笔记）](2026-10/OpenAI-Symphony先写规格再写码工程师管任务不写代码知识点笔记.md) | OpenAI 开源 Symphony（spec-driven 工作流），主张重新设计软件工程流程而非简单"AI 辅助写代码"：工程师从"管代码"转为"管任务/质量/方向"，AI 管代码。三步上手：放 WORKFLOW.md → 在 Linear 建任务 → 等着审代码。 | video |
+| 2026-10-23 | [OpenSRE：开源 SRE Agent 框架（知识点笔记）](2026-10/OpenSRE开源-SRE-Agent-框架知识点笔记.md) | OpenSRE（github.com/Tracer-Cloud/opensre，Apache-2.0，11.9k 星）是一个开源 AI SRE / DevOps Agent 框架：把你已经在用的 60+ 工具（Grafana、K8s、PagerDuty、Slack、GitHub…）接进来、自己定义工作流，在自己的基础设施上诊断/修复/优化生产系统——数据不出门。 | video |
+| 2026-10-23 | [PentAGI：完全自主的 AI 红队工具（知识点笔记）](2026-10/PentAGI完全自主的-AI-红队工具知识点笔记.md) | PentAGI（Penetration testing Artificial General Intelligence）是开源、自托管的完全自主 AI 红队工具：用自然语言描述目标和系统，一组专门的 AI agents 自主规划、在隔离 Docker 沙箱里运行 20+ 专业渗透工具（nmap / Metasploit / sqlmap），记住学到的东西并交出报告，全程零人工干预、100% 开源（ | video |
+| 2026-10-23 | [Qodo PR-Agent：自动做"最后 1% 代码审查"（知识点笔记）](2026-10/Qodo-PR-Agent自动做-最后-1-代码审查-知识点笔记.md) | Qodo PR-Agent 是开源的 AI 代码审查代理（社区维护，LAST COMMIT TODAY）：当团队 99% 代码由 AI 生产时，它能自动完成"最后 1% 的人工审查"——与 GitHub / GitLab / Bitbucket / Azure DevOps 无缝集成，高量自动化 PR 审查。 | video |
+| 2026-10-23 | [RAG 文档切割策略（面试向）知识点笔记](2026-10/RAG-文档切割策略面试向知识点笔记.md) | RAG 效果不好常卡在"切得不对"。文档切割按文档类型选策略，能背出这几种并说清适用场景，就是合格的工程答案。 | video |
+| 2026-10-23 | [SpecKit：GitHub 亲自下场，AI 编程先写规格再写码（知识点笔记）](2026-10/SpecKitGitHub-亲自下场AI-编程先写规格再写码知识点笔记.md) | GitHub 官方开源 SpecKit（spec-kit，MIT）：核心理念 "Define what to build before building it——with any AI coding agent"——用任何 AI 编码代理构建高质量软件前，先明确要构建什么（spec-driven development），开箱即用且可无限扩展、社区驱动。 | video |
+| 2026-10-23 | [tester-army/e2e 爆火：单日狂揽 1430 星（知识点笔记）](2026-10/tester-army-e2e-爆火单日狂揽-1430-星知识点笔记.md) | tester-army/e2e（即 013 详解的项目）爆火：单日新增 1,430 星、累计 4,752 星，Apache-2.0、TypeScript，面向 Web 与移动端，自然语言驱动 Agent 完成端到端测试。 | video |
+| 2026-10-23 | [tester-army/e2e：用大白话写端到端测试（知识点笔记）](2026-10/tester-army-e2e用大白话写端到端测试知识点笔记.md) | tester-army/e2e（GitHub ~9,153★ / Fork 441，Apache-2.0，TypeScript 98%，上线不到三个月冲上趋势榜）是下一代 Web/移动端 AI 端到端测试框架：测试步骤用自然语言写、AI 代理带视觉按语义操作、确定性断言 + 自由发挥混合、真实环境执行、验证过步骤缓存重放省模型额度。 | video |
+| 2026-10-23 | [TheAgency / AgencyAgents：一个工具=一个专家团队（知识点笔记）](2026-10/TheAgency-AgencyAgents一个工具一个专家团队知识点笔记.md) | TheAgency（GitHub ~158k 星，MIT，726 次提交）把"一整个公司的专家团队"打包成可按需调用的 AI 代理集合，配合原生应用 AgencyAgents 一键装进 Claude Code / Cursor / Codex / Gemini / Osaurus，一个人就能配齐"数字员工"干完一家公司的活。 | video |
+| 2026-10-23 | [UI 自动化测试怎么做：4 层方法论（知识点笔记）](2026-10/UI-自动化测试怎么做4-层方法论知识点笔记.md) | 做 UI 自动化不要"拿锤子找钉子"。四层心法：LAYER 01 先定"测什么"→ LAYER 02 图像识别拆解着用 → LAYER 03 隔离变化让脚本活得久 → LAYER 04 跳出测试从源头降成本。普通测试和资深测试的差距，就在这四步。 | video |
+| 2026-10-23 | [一口气了解十几个常用数据库（知识点笔记）](2026-10/一口气了解十几个常用数据库知识点笔记.md) | 一图流科普十几个常用数据库：从关系型（Oracle/MySQL/PostgreSQL/达梦/国产/PolarDB）到非关系（Redis/MongoDB/Elasticsearch/OceanBase/TiDB），再到 AI 带火的向量数据库（Milvus），讲清各自定位、坑点与适用场景。 | video |
+| 2026-10-23 | [一周通过 Agent 开发面试（7 天备战法）知识点笔记](2026-10/一周通过-Agent-开发面试7-天备战法知识点笔记.md) | 一套功利但有效的一周 Agent 开发面试备战法：前 2 天背高频题 → 3-4 天练 3 道真题 → 第 5 天包装项目 → 第 6 天模拟面试 → 第 7 天只补漏洞，最后按"八股/项目/代码/方案"四件事闭环。 | video |
+| 2026-10-23 | [一段"深度思考"提示词：让 AI 先澄清再回答（知识点笔记）](2026-10/一段-深度思考-提示词让-AI-先澄清再回答知识点笔记.md) | 一段 Reddit 高赞提示词，让 GPT / Codex / Claude 先别急着答、先做完三步分析、再只提一个最关键的问题，彻底改变了"AI 一上来就给一堆通用套话"的沟通方式。 | video |
+| 2026-10-23 | [免费学 AI Agent 的网站：《深入理解 AI Agent》开源书（知识点笔记）](2026-10/免费学-AI-Agent-的网站深入理解-AI-Agent开源书知识点笔记.md) | 发现一个免费学 AI Agent 的网站（李博杰《深入理解 AI Agent：设计原理与工程实践》开源主仓库，GitHub 50.6k 星、Apache-2.0）：全书正文 + 编译版 PDF + 按章配套代码，从概念讲起，覆盖上下文工程、记忆、工具、Coding Agent、多 Agent 协作等。 | video |
+| 2026-10-23 | [开源远程控制工具（GitHub 8.4k Star）知识点笔记](2026-10/开源远程控制工具GitHub-8.4k-Star知识点笔记.md) | 一个 GitHub 8.4k Star 的开源远程控制工具：跨平台（Windows/macOS/Android/Web），主控被控互传文件、远程开机（WoL）、剪贴板同步、屏幕墙（单控/群控 100 台），基于定制 WebRTC + Flutter + Vue3 + Nodejs，免费流畅、二次开发无压力。 | video |
+| 2026-10-23 | [抄 29 万人收藏的 Agent Skills 技能包（mattpocock/skills）知识点笔记](2026-10/抄-29-万人收藏的-Agent-Skills-技能包mattpocock-skills知识点笔记.md) | 29 万人收藏的"大牛技能包"，其实是 Matt Pocock 一个人的 .agents 目录开源出来（mattpocock/skills，GitHub ~29 万星 / 2.4 万 fork，MIT），给"真正工程师"用的技能集合，分效率类和工程类。 | video |
+| 2026-10-23 | [提高 Codex 审美的 5 个网站（知识点笔记）](2026-10/提高-Codex-审美的-5-个网站知识点笔记.md) | Codex 能写代码但缺审美，解决办法是让它从优秀 UI 组件库里挑组件、对齐样式，而不是裸写样式；视频给了 5 个直接可用的网站。 | video |
+| 2026-10-23 | [本期榜单：几乎被 AI 编程代理周边承包（知识点笔记）](2026-10/本期榜单几乎被-AI-编程代理周边承包知识点笔记.md) | 一期 GitHub 趋势盘点，TOP20 几乎全是 AI 编程代理的"周边工具"——从 claude-code 终端搭子，到 agent-skills/superpowers 给 AI 装技能包，再到 humanizer/no-ai-slop 专门洗掉那股"AI 味"，全在解决"AI 写代码"这一件事的不同侧面。 | video |
+| 2026-10-23 | [用 DESIGN.md 让 AI 生成与设计一致的高质量 UI（知识点笔记）](2026-10/用-DESIGN.md-让-AI-生成与设计一致的高质量-UI知识点笔记.md) | 把一份 DESIGN.md（纯文本设计配置）放进项目根目录，AI 编程工具就能生成"视觉上与设计语言一致"的高质量 UI，无需 Figma、JSON 或额外配置。 | video |
+| 2026-10-23 | [登上 GitHub 热榜第一的开源求职框架（基于 Claude Code）知识点笔记](2026-10/登上-GitHub-热榜第一的开源求职框架基于-Claude-Code知识点笔记.md) | 一个被裁的地球物理学家用 Claude Code 搭了套求职工作流并开源，登 GitHub 热榜第一（2.9w+ star）：他投 69 份简历、拿 20 个一面，最后转进 AI 工程。框架把简历、岗位分析、求职信、面试准备全做成 Claude Code 工作流，多维度评估匹配、双 Agent 互审、全链路追踪。 | video |
+| 2026-10-23 | [真正工程师的 AI Skills 技能包（知识点笔记）](2026-10/真正工程师的-AI-Skills-技能包知识点笔记.md) | 一位"大神程序员"开源了面向真实工程师的 AI Skills 技能包，把工程师常用能力沉淀进 .agents 目录，项目在 GitHub 已揽 288K+ star。 | video |
+| 2026-10-23 | [程序员实用榜 3：7 个 AI 工具（知识点笔记）](2026-10/程序员实用榜-37-个-AI-工具知识点笔记.md) | 一期"程序员实用榜"推荐 7 个全部免费、解决实际问题的 AI 工具，覆盖自动写码、记忆、改 Bug、本地跑模型、自动化重复工作、知识库。 | video |
+| 2026-10-23 | [简历没让人看到你能干活？测试开发面试实战（知识点笔记）](2026-10/简历没让人看到你能干活测试开发面试实战知识点笔记.md) | 2026 招聘市场反差：测试岗需求降 25%、AI 岗暴涨 24%——降的不是"测试"，是只做执行。作者用"AI 测试提效平台"项目（独立全栈 + 7 步 Skill 编排把覆盖率从 20% 拉到 95%+）做简历亮点，复盘了 7 场 183 个提问里的高频面试题，最终拿到两个 offer。 | video |
+| 2026-10-23 | [让 Codex 读陌生资料的 4 步读法 + 7 项输出（知识点笔记）](2026-10/让-Codex-读陌生资料的-4-步读法--7-项输出知识点笔记.md) | 让 Codex 处理陌生资料时，别一上来就"帮我总结"——先按 4 步读，再按 7 项产出；Summary 是最后一步，不是第一步。 | video |
 | 2026-10-23 | [高效阅读三原则（知识点笔记）](2026-10/高效阅读三原则知识点笔记.md) | 阅读效率=主动预测+间隔回顾+输出倒逼的闭环 | sample/test_video.mp4 |

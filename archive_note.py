@@ -76,6 +76,29 @@ def first_heading(body: str) -> str:
     return ""
 
 
+def extract_summary_from_body(body: str) -> str:
+    """当 front-matter 没有 summary 时, 从正文 `## 一句话总结` 段提取首段作为总结。"""
+    in_sec = False
+    buf = []
+    for line in body.splitlines():
+        s = line.strip()
+        if re.match(r"^##\s*一句话总结\s*$", s):
+            in_sec = True
+            continue
+        if in_sec:
+            if re.match(r"^##\s", s):   # 遇到下一个二级标题就结束
+                break
+            if s:
+                buf.append(s)
+    if not buf:
+        return ""
+    text = " ".join(buf)
+    text = re.sub(r"`([^`]*)`", r"\1", text)   # 去掉行内代码反引号, 保留内容
+    text = re.sub(r"[*_#>]", "", text)          # 去掉加粗/斜体/引用等标记
+    text = re.sub(r"\s+", " ", text).strip()
+    return text[:200]
+
+
 def list_timestamps(frames_dir: Path):
     """从关键帧目录读出 [时间戳 -> 帧文件] 列表。"""
     if not frames_dir.is_dir():
@@ -97,7 +120,7 @@ def archive(note_path: Path, args):
 
     title = args.title or fm.get("title") or first_heading(body) or note_path.stem
     d = args.date or fm.get("date") or date.today().isoformat()
-    summary = args.summary or fm.get("summary") or ""
+    summary = args.summary or fm.get("summary") or extract_summary_from_body(body)
 
     fields = dict(fm)
     fields["title"] = title
@@ -105,7 +128,7 @@ def archive(note_path: Path, args):
     fields.setdefault("tags", "[]")
     if args.source_video or "source_video" not in fields:
         fields["source_video"] = args.source_video or fm.get("source_video", "")
-    if args.summary:
+    if summary:
         fields["summary"] = summary
 
     frames_dir = Path(args.frames_dir) if args.frames_dir else None
@@ -143,7 +166,7 @@ def read_note_meta(md: Path):
     return {
         "title": title,
         "date": fm.get("date", ""),
-        "summary": fm.get("summary", ""),
+        "summary": fm.get("summary") or extract_summary_from_body(body),
         "source": fm.get("source_video", ""),
         "rel": md.relative_to(NOTES_DIR).as_posix(),
     }
