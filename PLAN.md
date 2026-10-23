@@ -1,6 +1,6 @@
 # 项目计划：微信视频 → 知识点 Markdown
 
-> 更新：2026-10-23。P1/P2/P3(基线)/P4 已完成并端到端验证；P0 待用户选工具并导入首批真实视频。
+> 更新：2026-10-23。P0 真数据(59 视频)已导入并全量抽帧+OCR；P3 笔记生成已大规模推进(50 篇归档)；已沉淀 wechat-video-note skill；git 已配好并推送到 GitHub。
 
 ## 现状盘点
 
@@ -11,7 +11,7 @@
 | `archive_note.py` | ✅ 归档到 `notes/YYYY-MM/` + 重建 `notes/INDEX.md` |
 | 真实视频 (P0) | ✅ 用户已导入 59 个视频/图片/音频到 `./video/` |
 | 抽帧 + OCR | ✅ 59 个视频全部完成：`output_videos/` 下每目录含 `frames/` + `raw_extract.md` + `ocr.md` |
-| 笔记生成 (P3) | 🟡 已示范 4 篇（加测试共 5 篇归档）；剩余 55 篇待逐篇整理（见"规模与策略"） |
+| 笔记生成 (P3) | ✅ 50 篇已归档（notes/2026-10/）；剩余 9 篇用户未勾选（见"规模与策略"） |
 | 关键帧时间戳 (P1) | ✅ 帧文件名 `frame_0001_t00m12s.jpg`，`raw_extract.md`/`ocr.md` 均带时间戳 |
 | 端到端验证 (P2) | ✅ Python 3.12 + `.venv`（opencv/pillow/numpy/faster-whisper/rapidocr） |
 | `gen_test_video.py` | ✅ `sample/test_video.mp4` 已生成 |
@@ -25,13 +25,11 @@
 
 ## 规模与策略（P3 续）
 
-59 个视频已全部抽帧 + OCR，但"逐篇生成知识点笔记"需要逐视频读取 OCR 文本并整理，
-单次对话内全量产出 token 量过大。建议分主题/分批推进，或指定优先级：
+59 个视频已全部抽帧 + OCR。**50 篇笔记已生成并归档**到 `notes/2026-10/`（含首轮 4 篇 + 测试示例 + 本轮用户勾选的 45 篇）。
 
-- 已归档（5 篇）：高效阅读三原则（测试）、真正工程师的 AI Skills 技能包、
-  提高 Codex 审美的 5 个网站、用 DESIGN.md 让 AI 生成高质量 UI、Codex 读资料的 4 步读法 + 7 项输出。
-- 待整理 54 篇，大致主题：AI 编程/编码工具（占比最大）、软件测试/面试、Agent/大模型、
-  Linux 运维/监控、数据库/CS 基础、求职/职场、少量非技术（旅行等）。
+- 已归档（50 篇）：覆盖 AI 编程/编码工具、软件测试/AI 测试、Agent/大模型/求职、运维/监控/SRE/安全、数据库/CS 基础等主题。
+- 待整理（9 篇，用户未勾选）：`023/024/025`（同一 C 语言视频三份，任选其一）、`026`（DevOps）、`011`（职场吐槽）、`044`（非技术）、`021`（与 `020` 重复，跳过）。
+- 后续新增视频：走 README「后续更新指南」标准动作，或由 `wechat-video-note` skill 触发。
 
 ## 执行记录（2026-10-23）
 
@@ -40,6 +38,13 @@
 - P0 真数据：59 个视频抽帧（1329 张关键帧），全量 OCR 产出 `ocr.md`。
 - P3 示范 4 篇笔记并归档，打通"抽帧→OCR→整理→归档→索引"真实闭环。
 - 更新 README（OCR 步骤、真实目录 `video/`、`output_videos/`、批量归档命令）与 PLAN。
+
+## 执行记录（2026-10-23 续）
+
+- 用户勾选 45 篇笔记全部生成并归档（`notes/` 共 50 篇）；`pending_notes.md` 标记完成。
+- 配置 Git：生成 ed25519 SSH key、关联 `git@github.com:dolanshu/wechat-knowledge.git`、统一 `main` 分支、提交邮箱改为 GitHub noreply；全部已 commit + push。
+- 沉淀 CodeBuddy skill：`.codebuddy/skills/wechat-video-note/SKILL.md`，固化"生成笔记 + 归档 + 入库"流程与格式规范。
+- 重写 README：补进度状态、笔记格式规范、去重读取技巧、git 入库与端到端后续更新指南。
 
 ## P0 视频获取方案（新增，前置依赖）
 
